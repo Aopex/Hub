@@ -44,7 +44,7 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择
+      - ♻️ 喝粥帮你选
       - DIRECT
       - 🇨🇳 中国【喝粥】10
       - 🇺🇲 美国【喝粥】56
@@ -81,7 +81,7 @@ proxy-groups:
       - 🇸🇬 新加坡【喝粥】113
       - 🇺🇲 美国【喝粥】92
       - 🇺🇲 美国【喝粥】132
-  - name: ♻️ 自动选择
+  - name: ♻️ 喝粥帮你选
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
@@ -126,7 +126,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - ♻️ 自动选择
+      - ♻️ 喝粥帮你选
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -137,7 +137,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ♻️ 自动选择
+      - ♻️ 喝粥帮你选
       - 🇨🇳 中国【喝粥】10
       - 🇺🇲 美国【喝粥】56
       - 乌克兰【喝粥】99
