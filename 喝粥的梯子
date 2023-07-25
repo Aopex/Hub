@@ -17,13 +17,13 @@ dns:
 proxies:
   - {name: 🇺🇸 _US_美国, server: cloudflare.piaole.me, port: 443, client-fingerprint: chrome, type: vmess, uuid: 7f661b42-fb36-48aa-a0db-6961180ca69d, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: cloudflare.piaole.me}}}
   - {name: 🇺🇸 _US_美国 2, server: 192.74.232.226, port: 52312, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本, server: jp2.downloadvip.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: f89d1762-7627-4676-b4cf-e4de76ee3636, tfo: false, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false}
+  - {name: 🇯🇵 【可用】_JP_日本, server: jp2.downloadvip.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: f89d1762-7627-4676-b4cf-e4de76ee3636, tfo: false, sni: download.xn--mes358a9urctx.com, skip-cert-verify: false}
   - {name: 🇭🇰 _HK_香港->🇳🇱_NL_荷兰, server: 156.245.8.240, port: 49123, client-fingerprint: chrome, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 3, server: 140.99.57.4, port: 50042, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇭🇰 _CN_中国->🇭🇰_HK_香港, server: 183.240.221.73, port: 38801, client-fingerprint: chrome, type: trojan, password: e958b47d-3510-445a-99cb-dc98d227e29e, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 4, server: 108.162.195.63, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 3cd4f859-1048-4fdf-d8d8-4dbfaa9e8a80, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer, headers: {Host: txx.vtcss.top}}}
   - {name: 🇺🇸 _US_美国 5, server: zfc.windowsupdate1.com, port: 443, client-fingerprint: chrome, type: vmess, uuid: 41bec492-cd79-4b57-9a15-7d2bb00fcfca, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/pq/usfh2?ed=2048", headers: {Host: usfh2.pqjc.buzz}}}
-  - {name: 🇸🇬 _SG_新加坡->🇯🇵_JP_日本, server: jp.stablize.top, port: 443, client-fingerprint: chrome, type: trojan, password: 4d23cf0e-5ceb-43e7-90d3-63982bfa6940, tfo: false, skip-cert-verify: false}
+  - {name: 🇸🇬 _【可用】SG_新加坡->🇯🇵_JP_日本, server: jp.stablize.top, port: 443, client-fingerprint: chrome, type: trojan, password: 4d23cf0e-5ceb-43e7-90d3-63982bfa6940, tfo: false, skip-cert-verify: false}
   - {name: 🇫🇷 _FR_法国, server: 35.180.203.72, port: 22222, client-fingerprint: chrome, type: trojan, password: telegram-id-privatevpns, tfo: false, sni: trj.rollingnext.co.uk, skip-cert-verify: false}
   - {name: 🇹🇼 _TW_台湾, server: pq-hinet.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
   - {name: 🇰🇷 _KR_韩国, server: 13.125.37.44, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
@@ -35,15 +35,15 @@ proxies:
   - {name: 🇸🇬 _SG_新加坡, server: pqawssg2.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 9, server: 162.159.243.235, port: 443, client-fingerprint: chrome, type: vmess, uuid: 20c08a8d-85d6-47c6-bbb0-c8389a578b71, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /7803f1, headers: {Host: tk.731808.tk}}}
   - {name: 🇸🇬 _SG_新加坡 2, server: pqawsjp02.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本 2, server: pqawsjp3.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, skip-cert-verify: false}
+  - {name: 🇯🇵 【可用】_JP_日本 2, server: pqawsjp3.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 10, server: 38.26.135.7, port: 44942, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 11, server: 192.74.243.60, port: 50246, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 12, server: visa.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 03759921-9859-41b5-de64-2e0b2b61d488, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: c.ghhymua.tk}}}
   - {name: 🇸🇬 _SG_新加坡 3, server: pqawssg02.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 13, server: 38.63.0.78, port: 47002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 14, server: 192.74.234.135, port: 49872, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本 3, server: pqawsjp1.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本 4, server: 18.183.217.240, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇯🇵 【可用】_JP_日本 3, server: pqawsjp1.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇯🇵 【可用】_JP_日本 4, server: 18.183.217.240, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇺🇸 _US_美国 15, server: 142.4.104.202, port: 56002, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 16, server: 137.175.29.33, port: 53986, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 17, server: 192.74.231.187, port: 49255, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
@@ -56,14 +56,14 @@ proxies:
   - {name: 🇺🇸 _US_美国 22, server: 104.20.131.218, port: 8880, client-fingerprint: chrome, type: vmess, uuid: dbb471fd-c7ef-4599-871c-b4ed72cca498, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /qwer0, headers: {Host: txx.vtcss.top}}}
   - {name: 🇺🇸 _US_美国 23, server: Lille.kotick.site, port: 443, client-fingerprint: chrome, type: vmess, uuid: 6147F065-9AC0-4081-A5A3-A2EB4EBB8958, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: false, network: ws, ws-opts: {path: /speedtest, headers: {Host: Lille.kotick.site}}}
   - {name: 🇺🇸 _US_美国 24, server: 140.99.49.56, port: 55602, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇸🇬 _JP_日本->🇸🇬_SG_新加坡, server: pqawssg1.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
+  - {name: 🇸🇬 【可用】_JP_日本->🇸🇬_SG_新加坡, server: pqawssg1.gsjc.cfd, port: 443, client-fingerprint: chrome, type: trojan, password: 32068eda-adad-431a-bfd4-2f7d4c73507c, tfo: false, sni: 18-140-66-207.nhost.00cdn.com, skip-cert-verify: false}
   - {name: 🇰🇷 _KR_韩国 2, server: kr5.microsoft-orgwly.vip, port: 10023, client-fingerprint: chrome, type: trojan, password: fc9f825b-96d2-4f9b-b003-ae8c65fc5c8d, tfo: false, sni: tls.microsoft-orgwly.vip, skip-cert-verify: false}
   - {name: 🇰🇷 _KR_韩国 3, server: 43.202.55.210, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇺🇸 _US_美国 25, server: 198.2.203.53, port: 44672, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 26, server: 198.2.218.205, port: 51203, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 27, server: 199.188.105.141, port: 45009, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2, server: 156.225.67.16, port: 49123, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
-  - {name: 🇯🇵 _JP_日本 5, server: jp7.jb7ueoq73.xyz, port: 10068, client-fingerprint: chrome, type: trojan, password: 5e6f6f98-59b9-4a70-a3f3-ea4a2bd41ea7, tfo: false, sni: tls.jisuyun.co, skip-cert-verify: false}
+  - {name: 🇯🇵 【可用】_JP_日本 5, server: jp7.jb7ueoq73.xyz, port: 10068, client-fingerprint: chrome, type: trojan, password: 5e6f6f98-59b9-4a70-a3f3-ea4a2bd41ea7, tfo: false, sni: tls.jisuyun.co, skip-cert-verify: false}
   - {name: 🇺🇸 _US_美国 28, server: 198.2.204.253, port: 46902, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: false}
 proxy-groups:
   - name: 🚀 测速后手动选择节点
@@ -72,13 +72,13 @@ proxy-groups:
       - DIRECT
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
-      - 🇯🇵 _JP_日本
+      - 🇯🇵 【可用】_JP_日本
       - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
       - 🇺🇸 _US_美国 3
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇸🇬 _【可用】SG_新加坡->🇯🇵_JP_日本
       - 🇫🇷 _FR_法国
       - 🇹🇼 _TW_台湾
       - 🇰🇷 _KR_韩国
@@ -90,15 +90,15 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡
       - 🇺🇸 _US_美国 9
       - 🇸🇬 _SG_新加坡 2
-      - 🇯🇵 _JP_日本 2
+      - 🇯🇵 【可用】_JP_日本 2
       - 🇺🇸 _US_美国 10
       - 🇺🇸 _US_美国 11
       - 🇺🇸 _US_美国 12
       - 🇸🇬 _SG_新加坡 3
       - 🇺🇸 _US_美国 13
       - 🇺🇸 _US_美国 14
-      - 🇯🇵 _JP_日本 3
-      - 🇯🇵 _JP_日本 4
+      - 🇯🇵 【可用】_JP_日本 3
+      - 🇯🇵 【可用】_JP_日本 4
       - 🇺🇸 _US_美国 15
       - 🇺🇸 _US_美国 16
       - 🇺🇸 _US_美国 17
@@ -111,14 +111,14 @@ proxy-groups:
       - 🇺🇸 _US_美国 22
       - 🇺🇸 _US_美国 23
       - 🇺🇸 _US_美国 24
-      - 🇸🇬 _JP_日本->🇸🇬_SG_新加坡
+      - 🇸🇬 【可用】_JP_日本->🇸🇬_SG_新加坡
       - 🇰🇷 _KR_韩国 2
       - 🇰🇷 _KR_韩国 3
       - 🇺🇸 _US_美国 25
       - 🇺🇸 _US_美国 26
       - 🇺🇸 _US_美国 27
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
-      - 🇯🇵 _JP_日本 5
+      - 🇯🇵 【可用】_JP_日本 5
       - 🇺🇸 _US_美国 28
   - name: 🎯 由喝粥友情提供
     type: select
@@ -130,20 +130,20 @@ proxy-groups:
     proxies:
       - REJECT
       - DIRECT
-  - name: 🐟 漏网之鱼
+  - name: 🐟 Aopex.github.io
     type: select
     proxies:
       - 🚀 测速后手动选择节点
       - 🎯 由喝粥友情提供
       - 🇺🇸 _US_美国
       - 🇺🇸 _US_美国 2
-      - 🇯🇵 _JP_日本
+      - 🇯🇵 【可用】_JP_日本
       - 🇭🇰 _HK_香港->🇳🇱_NL_荷兰
       - 🇺🇸 _US_美国 3
       - 🇭🇰 _CN_中国->🇭🇰_HK_香港
       - 🇺🇸 _US_美国 4
       - 🇺🇸 _US_美国 5
-      - 🇸🇬 _SG_新加坡->🇯🇵_JP_日本
+      - 🇸🇬 _【可用】SG_新加坡->🇯🇵_JP_日本
       - 🇫🇷 _FR_法国
       - 🇹🇼 _TW_台湾
       - 🇰🇷 _KR_韩国
@@ -155,15 +155,15 @@ proxy-groups:
       - 🇸🇬 _SG_新加坡
       - 🇺🇸 _US_美国 9
       - 🇸🇬 _SG_新加坡 2
-      - 🇯🇵 _JP_日本 2
+      - 🇯🇵 【可用】_JP_日本 2
       - 🇺🇸 _US_美国 10
       - 🇺🇸 _US_美国 11
       - 🇺🇸 _US_美国 12
       - 🇸🇬 _SG_新加坡 3
       - 🇺🇸 _US_美国 13
       - 🇺🇸 _US_美国 14
-      - 🇯🇵 _JP_日本 3
-      - 🇯🇵 _JP_日本 4
+      - 🇯🇵 【可用】_JP_日本 3
+      - 🇯🇵 【可用】_JP_日本 4
       - 🇺🇸 _US_美国 15
       - 🇺🇸 _US_美国 16
       - 🇺🇸 _US_美国 17
@@ -176,14 +176,14 @@ proxy-groups:
       - 🇺🇸 _US_美国 22
       - 🇺🇸 _US_美国 23
       - 🇺🇸 _US_美国 24
-      - 🇸🇬 _JP_日本->🇸🇬_SG_新加坡
+      - 🇸🇬 【可用】_JP_日本->🇸🇬_SG_新加坡
       - 🇰🇷 _KR_韩国 2
       - 🇰🇷 _KR_韩国 3
       - 🇺🇸 _US_美国 25
       - 🇺🇸 _US_美国 26
       - 🇺🇸 _US_美国 27
       - 🇺🇸 _US_美国->🇳🇱_NL_荷兰 2
-      - 🇯🇵 _JP_日本 5
+      - 🇯🇵 【可用】_JP_日本 5
       - 🇺🇸 _US_美国 28
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 由喝粥友情提供
@@ -3578,4 +3578,4 @@ rules:
   - IP-CIDR,101.198.192.0/19,🎯 由喝粥友情提供,no-resolve
   - IP-CIDR,101.199.196.0/22,🎯 由喝粥友情提供,no-resolve
   - GEOIP,CN,🎯 由喝粥友情提供
-  - MATCH,🐟 漏网之鱼
+  - MATCH,🐟 Aopex.github.io
