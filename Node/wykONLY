@@ -56,7 +56,7 @@ proxies:
   - {name: 【喝粥推荐】_SG_新加坡 3, server: 13.213.53.130, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
   - {name: _CN_中国->🇺🇸_US_美国 3, server: usa1.vfun.icu, port: 443, type: ssr, cipher: aes-256-cfb, password: vyunme, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 17422:TTp0SX, obfs-param: ab93117422.jd.hk, udp: true}
 proxy-groups:
-  - name: Proxies
+  - name: 🐥喝粥和雅凯的梯子 - 使用喝粥推荐节点或手动测速后选择可用节点
     type: select
     proxies:
       - 【喝粥推荐】_SG_新加坡
