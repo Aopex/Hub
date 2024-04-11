@@ -41,7 +41,7 @@ proxies:
     ws-headers:
       Host: free.qdns.live
   -
-    name: '[青铜][俄.彼得堡][1.0] 免费 ① '
+    name: '[俄.彼得堡][1.0] ① '
     type: vmess
     server: free.qdns.live
     port: 80
@@ -57,7 +57,7 @@ proxies:
     ws-headers:
       Host: emea-ru-led-01-edgecast.qdns.live
   -
-    name: '[青铜][俄.彼得堡][1.0] 免费 ②'
+    name: '[俄.彼得堡][1.0]②'
     type: vmess
     server: free.qdns.live
     port: 80
