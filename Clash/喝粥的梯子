@@ -8,34 +8,34 @@ proxies:
   - {name: 🇬🇧 高性价比机场:https://kfyun.uk, server: 127.0.0.1, port: 443, type: ss, cipher: aes-128-gcm, password: 6601fb90e9b3}
   - {name: 🇺🇲 美国 Fastly全球Anycast节点, server: gov.uk, port: 443, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
   - {name: 🇨🇳 广东省广州市 移动, server: 120.232.240.38, port: 8443, type: vmess, uuid: 39ef8f5d-7286-41b0-9c11-c976925d2931, alterId: 0, cipher: auto, tls: true}
-  - {name: 🇺🇲 美国 AopexDot, server: 104.19.40.222, port: 8880, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d/65dd503.TG.WangCai2.WangCai_8:107690, headers: {Host: uk.moss.network}}}
+  - {name: 🇺🇲 美国 CLF 专线, server: 104.19.40.222, port: 8880, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d/65dd503.TG.WangCai2.WangCai_8:107690, headers: {Host: uk.moss.network}}}
   - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
   - {name: 🇮🇪 爱尔兰 都柏林Amazon数据中心, server: 34.254.48.164, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇮🇳 印度 AopexDot, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
-  - {name: 伊朗 AopexDot, server: 213.176.2.83, port: 55222, type: vmess, uuid: 55f62edd-ca88-47f9-81e1-bc9816ea7f9a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇳 印度 CLF 专线, server: 202.78.162.5, port: 443, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
+  - {name: 伊朗 CLF 专线, server: 213.176.2.83, port: 55222, type: vmess, uuid: 55f62edd-ca88-47f9-81e1-bc9816ea7f9a, alterId: 0, cipher: auto, tls: false}
   - {name: 🇺🇲 美国+华盛顿州, server: 205.134.180.151, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 5cp9Z3iWnJZ2}
-  - {name: 🇺🇲 美国 AopexDot 2, server: 104.19.43.26, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: osaka.xlb8.eu.org}}}
+  - {name: 🇺🇲 美国 CLF 专线 2, server: 104.19.43.26, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: osaka.xlb8.eu.org}}}
   - {name: 🇩🇪 德国 黑森州法兰克福Amazon数据中心, server: 52.29.194.73, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk}
   - {name: 🇨🇳 广东省广州市 移动 2, server: 120.232.242.117, port: 41492, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
   - {name: 🇫🇷 法国 巴黎Amazon数据中心, server: 52.47.103.163, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false}
-  - {name: 🇺🇲 美国 AopexDot 3, server: 172.67.172.219, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇲 美国 CLF 专线 3, server: 172.67.172.219, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
   - {name: 广东省江门市 移动, server: 120.238.122.243, port: 40259, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 AopexDot 4, server: 104.19.40.84, port: 8880, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d/65dd503.TG.WangCai2.WangCai_8:107690, headers: {Host: uk.moss.network}}}
+  - {name: 🇺🇲 美国 CLF 专线 4, server: 104.19.40.84, port: 8880, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /d/65dd503.TG.WangCai2.WangCai_8:107690, headers: {Host: uk.moss.network}}}
   - {name: 广东省佛山市 移动, server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇮🇪 爱尔兰 AopexDot, server: 46.51.136.42, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇺🇲 美国 AopexDot 5, server: hk.wish.ml, port: 2052, type: vmess, uuid: 3869ede6-6dd2-4883-ae38-491cbc47d45d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.wish.ml}}}
-  - {name: 🇺🇲 美国 AopexDot 6, server: 172.67.199.185, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇮🇪 爱尔兰 CLF 专线, server: 46.51.136.42, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
+  - {name: 🇺🇲 美国 CLF 专线 5, server: hk.wish.ml, port: 2052, type: vmess, uuid: 3869ede6-6dd2-4883-ae38-491cbc47d45d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg1.wish.ml}}}
+  - {name: 🇺🇲 美国 CLF 专线 6, server: 172.67.199.185, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
   - {name: 🇺🇲 美国 麻省理工学院, server: 18.135.195.155, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk}
-  - {name: 🇺🇲 美国 AopexDot 7, server: 104.18.19.191, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
+  - {name: 🇺🇲 美国 CLF 专线 7, server: 104.18.19.191, port: 2052, type: vmess, uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: helanv6cf.inekokkk.top}}}
   - {name: 广东省 移动, server: data-us-v1.shwjfkw.cn, port: 20401, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
-  - {name: 🇺🇲 美国 AopexDot 8, server: 104.19.43.163, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: osaka.xlb8.eu.org}}}
-  - {name: 🇺🇲 美国 AopexDot 9, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇲 美国 CLF 专线 8, server: 104.19.43.163, port: 80, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: osaka.xlb8.eu.org}}}
+  - {name: 🇺🇲 美国 CLF 专线 9, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
   - {name: 🇺🇲 美国 Akamai科技公司CDN网络节点, server: 172.233.164.32, port: 39841, type: vmess, uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 AopexDot 10, server: 104.16.61.8, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hms02.fxiaomi.sbs/link, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}}
-  - {name: 瑞典+AopexDot, server: 167.88.61.175, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 美国 CLF 专线 10, server: 104.16.61.8, port: 80, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /hms02.fxiaomi.sbs/link, headers: {Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev}}}
+  - {name: 瑞典+CLF 专线, server: 167.88.61.175, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 广东省佛山市 移动 2, server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇺🇲 美国 AopexDot 11, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
-  - {name: 🇺🇲 美国 AopexDot 12, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
+  - {name: 🇺🇲 美国 CLF 专线 11, server: 104.21.82.183, port: 8880, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
+  - {name: 🇺🇲 美国 CLF 专线 12, server: www.darkroom.lol, port: 8080, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
   - {name: 🇺🇲 美国+Akamai科技公司CDN网络节点, server: 172.232.36.182, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: lVEh8ZWBIMiZL97zwJ4VbX}
   - {name: 🇷🇺 俄罗斯  1, server: 185.242.86.156, port: 54170, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
   - {name: 🇮🇳 印度  2, server: 202.78.162.5, port: 443, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
@@ -57,15 +57,15 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇲 美国 AopexDot 2
+      - 🇺🇲 美国 CLF 专线 2
       - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 AopexDot 3
+      - 🇺🇲 美国 CLF 专线 3
       - 广东省江门市 移动
-      - 🇺🇲 美国 AopexDot 4
+      - 🇺🇲 美国 CLF 专线 4
       - 广东省佛山市 移动
-      - 🇮🇪 爱尔兰 AopexDot
-      - 🇺🇲 美国 AopexDot 5
-      - 🇺🇲 美国 AopexDot 6
+      - 🇮🇪 爱尔兰 CLF 专线
+      - 🇺🇲 美国 CLF 专线 5
+      - 🇺🇲 美国 CLF 专线 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -73,15 +73,15 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇲 美国 AopexDot 2
+      - 🇺🇲 美国 CLF 专线 2
       - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 AopexDot 3
+      - 🇺🇲 美国 CLF 专线 3
       - 广东省江门市 移动
-      - 🇺🇲 美国 AopexDot 4
+      - 🇺🇲 美国 CLF 专线 4
       - 广东省佛山市 移动
-      - 🇮🇪 爱尔兰 AopexDot
-      - 🇺🇲 美国 AopexDot 5
-      - 🇺🇲 美国 AopexDot 6
+      - 🇮🇪 爱尔兰 CLF 专线
+      - 🇺🇲 美国 CLF 专线 5
+      - 🇺🇲 美国 CLF 专线 6
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -89,60 +89,60 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇲 美国 AopexDot 2
+      - 🇺🇲 美国 CLF 专线 2
       - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 AopexDot 3
+      - 🇺🇲 美国 CLF 专线 3
       - 广东省江门市 移动
-      - 🇺🇲 美国 AopexDot 4
+      - 🇺🇲 美国 CLF 专线 4
       - 广东省佛山市 移动
-      - 🇮🇪 爱尔兰 AopexDot
-      - 🇺🇲 美国 AopexDot 5
-      - 🇺🇲 美国 AopexDot 6
+      - 🇮🇪 爱尔兰 CLF 专线
+      - 🇺🇲 美国 CLF 专线 5
+      - 🇺🇲 美国 CLF 专线 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇲 美国 AopexDot 2
+      - 🇺🇲 美国 CLF 专线 2
       - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 AopexDot 3
+      - 🇺🇲 美国 CLF 专线 3
       - 广东省江门市 移动
-      - 🇺🇲 美国 AopexDot 4
+      - 🇺🇲 美国 CLF 专线 4
       - 广东省佛山市 移动
-      - 🇮🇪 爱尔兰 AopexDot
-      - 🇺🇲 美国 AopexDot 5
-      - 🇺🇲 美国 AopexDot 6
+      - 🇮🇪 爱尔兰 CLF 专线
+      - 🇺🇲 美国 CLF 专线 5
+      - 🇺🇲 美国 CLF 专线 6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇲 美国 AopexDot 2
+      - 🇺🇲 美国 CLF 专线 2
       - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 AopexDot 3
+      - 🇺🇲 美国 CLF 专线 3
       - 广东省江门市 移动
-      - 🇺🇲 美国 AopexDot 4
+      - 🇺🇲 美国 CLF 专线 4
       - 广东省佛山市 移动
-      - 🇮🇪 爱尔兰 AopexDot
-      - 🇺🇲 美国 AopexDot 5
-      - 🇺🇲 美国 AopexDot 6
+      - 🇮🇪 爱尔兰 CLF 专线
+      - 🇺🇲 美国 CLF 专线 5
+      - 🇺🇲 美国 CLF 专线 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇲 美国 AopexDot 2
+      - 🇺🇲 美国 CLF 专线 2
       - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 AopexDot 3
+      - 🇺🇲 美国 CLF 专线 3
       - 广东省江门市 移动
-      - 🇺🇲 美国 AopexDot 4
+      - 🇺🇲 美国 CLF 专线 4
       - 广东省佛山市 移动
-      - 🇮🇪 爱尔兰 AopexDot
-      - 🇺🇲 美国 AopexDot 5
-      - 🇺🇲 美国 AopexDot 6
+      - 🇮🇪 爱尔兰 CLF 专线
+      - 🇺🇲 美国 CLF 专线 5
+      - 🇺🇲 美国 CLF 专线 6
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -150,15 +150,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇲 美国 AopexDot 2
+      - 🇺🇲 美国 CLF 专线 2
       - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 AopexDot 3
+      - 🇺🇲 美国 CLF 专线 3
       - 广东省江门市 移动
-      - 🇺🇲 美国 AopexDot 4
+      - 🇺🇲 美国 CLF 专线 4
       - 广东省佛山市 移动
-      - 🇮🇪 爱尔兰 AopexDot
-      - 🇺🇲 美国 AopexDot 5
-      - 🇺🇲 美国 AopexDot 6
+      - 🇮🇪 爱尔兰 CLF 专线
+      - 🇺🇲 美国 CLF 专线 5
+      - 🇺🇲 美国 CLF 专线 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -179,15 +179,15 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇮🇪 爱尔兰 都柏林Amazon数据中心
-      - 🇺🇲 美国 AopexDot 2
+      - 🇺🇲 美国 CLF 专线 2
       - 🇨🇳 广东省广州市 移动 2
-      - 🇺🇲 美国 AopexDot 3
+      - 🇺🇲 美国 CLF 专线 3
       - 广东省江门市 移动
-      - 🇺🇲 美国 AopexDot 4
+      - 🇺🇲 美国 CLF 专线 4
       - 广东省佛山市 移动
-      - 🇮🇪 爱尔兰 AopexDot
-      - 🇺🇲 美国 AopexDot 5
-      - 🇺🇲 美国 AopexDot 6
+      - 🇮🇪 爱尔兰 CLF 专线
+      - 🇺🇲 美国 CLF 专线 5
+      - 🇺🇲 美国 CLF 专线 6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
