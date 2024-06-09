@@ -36,5 +36,3 @@ jobs:
           cp clash.yaml "Clash/喝粥的梯子"
           git add "Clash/喝粥的梯子"
           git commit -m "Update clash config with today's date ${{ env.DATE }}"
-          git pull --rebase origin main
-          git push origin main
