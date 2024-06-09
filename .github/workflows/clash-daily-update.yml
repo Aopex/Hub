@@ -24,7 +24,7 @@ jobs:
       - name: Replace text
         run: |
           sed -i 's/♻️ 自动选择/♻️ 喝粥帮你选/g' clash.yaml
-          echo clash.yaml
+          cat clash.yaml
 
       - name: Commit and push changes
         env:
