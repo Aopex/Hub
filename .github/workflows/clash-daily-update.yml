@@ -1,0 +1,41 @@
+name: Clash Daily Update
+
+# 使用 cron 表达式设置定时触发，每天 UTC 时间 4 点
+on:
+  schedule:
+    - cron: '0 4 * * *'
+
+jobs:
+  update-clash-config:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出代码库
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # 设置当前日期变量
+      - name: Set date variable
+        id: date
+        run: echo "DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV
+
+      # 从指定 URL 拉取内容
+      - name: Download clash config
+        run: |
+          curl -o clash.yaml "https://freenode.openrunner.net/uploads/${{ env.DATE }}-clash.yaml"
+
+      # 执行全局文本替换
+      - name: Replace text
+        run: |
+          sed -i 's/♻️ 自动选择/♻️ 喝粥帮你选/g' clash.yaml
+
+      # 将修改后的文件提交到指定路径
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p "Clash"
+          mv clash.yaml "Clash/喝粥的梯子"
+          git add "Clash/喝粥的梯子"
+          git commit -m "Update clash config with today's date"
+          git push
