@@ -1,0 +1,41 @@
+name: Update Clash Config
+
+on:
+  schedule:
+    # 每天4点自动执行
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+    # 手动执行
+
+jobs:
+  update-clash-config:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Get current date
+      id: date
+      run: echo "DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV
+
+    - name: Download clash config
+      run: |
+        curl -o clash.yaml "https://freenode.openrunner.net/uploads/${{ env.DATE }}-clash.yaml"
+
+    - name: Replace text in clash config
+      run: |
+        sed -i 's/♻️ 自动选择/♻️ 喝粥帮你选/g' clash.yaml
+
+    - name: Move clash config to repository
+      run: |
+        mkdir -p Clash
+        mv clash.yaml Clash/喝粥的梯子
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add Clash/喝粥的梯子
+        git commit -m "Update Clash config for ${{ env.DATE }}"
+        git push
