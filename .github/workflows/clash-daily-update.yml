@@ -4,6 +4,8 @@ name: Clash Daily Update
 on:
   schedule:
     - cron: '0 4 * * *'
+    # 允许手动触发
+  workflow_dispatch:
 
 jobs:
   update-clash-config:
