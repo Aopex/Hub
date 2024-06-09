@@ -33,9 +33,11 @@ jobs:
         mv clash.yaml Clash/喝粥的梯子
 
     - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add Clash/喝粥的梯子
         git commit -m "Update Clash config for ${{ env.DATE }}"
-        git push
+        git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
