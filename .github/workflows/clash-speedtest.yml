@@ -3,6 +3,7 @@ name: Clash Speedtest
 on:
   schedule:
     - cron: '5 20 * * *' # 北京时间每天4点5分执行
+  workflow_dispatch:
 
 jobs:
   speedtest:
