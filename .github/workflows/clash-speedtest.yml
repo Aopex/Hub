@@ -18,8 +18,11 @@ jobs:
       with:
         go-version: '1.17'
 
+    - name: Clone clash-speedtest repository
+      run: git clone https://github.com/faceair/clash-speedtest.git
+
     - name: Install clash-speedtest
-      run: go install github.com/faceair/clash-speedtest@latest
+      run: cd clash-speedtest && go install
 
     - name: Run clash-speedtest
       run: clash-speedtest -c 'https://raw.githubusercontent.com/Aopex/Hub/main/Clash/%E5%96%9D%E7%B2%A5%E7%9A%84%E6%A2%AF%E5%AD%90' > Clash/Speedtest
