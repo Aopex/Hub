@@ -19,12 +19,12 @@ jobs:
           go-version: 1.16
 
       - name: Install clash-speedtest
-        run: go install github.com/faceair/clash-speedtest@latest
+        run: go get github.com/faceair/clash-speedtest@latest
 
       - name: Run clash-speedtest and save output
         id: speedtest
         run: |
-          clash-speedtest -c 'https://mirror.ghproxy.com/https://raw.githubusercontent.com/Aopex/Hub/main/Clash/喝粥的梯子' > speedtest_result.txt
+          clash-speedtest -c 'https://raw.githubusercontent.com/Aopex/Hub/main/Clash/%E5%96%9D%E7%B2%A5%E7%9A%84%E6%A2%AF%E5%AD%90' > speedtest_result.txt
 
       - name: Commit and push if changed
         env:
