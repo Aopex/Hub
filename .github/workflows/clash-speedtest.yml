@@ -25,10 +25,12 @@ jobs:
       run: cd clash-speedtest && go install
 
     - name: Run clash-speedtest
-      run: clash-speedtest -c 'https://raw.githubusercontent.com/Aopex/Hub/main/Clash/%E5%96%9D%E7%B2%A5%E7%9A%84%E6%A2%AF%E5%AD%90' > Clash/Speedtest
+      run: clash-speedtest -c 'https://raw.githubusercontent.com/Aopex/Hub/main/Clash/%E5%96%9D%E7%B2%A5%E7%9A%84%E6%A2%AF%E5%AD%90' > speedtest_result.txt
 
     - name: Commit results
       run: |
+        mkdir -p Clash
+        mv speedtest_result.txt Clash/Speedtest
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add Clash/Speedtest
