@@ -11,22 +11,22 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Go
         uses: actions/setup-go@v2
         with:
-          go-version: 1.16
+          go-version: 1.20
 
       - name: Install clash-speedtest
-        run: go get github.com/faceair/clash-speedtest@latest
+        run: go install github.com/faceair/clash-speedtest@latest
 
       - name: Run clash-speedtest and save output
         id: speedtest
         run: |
           clash-speedtest -c 'https://raw.githubusercontent.com/Aopex/Hub/main/Clash/%E5%96%9D%E7%B2%A5%E7%9A%84%E6%A2%AF%E5%AD%90' > speedtest_result.txt
 
-      - name: Commit and push if changed
+      - name: Commit and push speedtest results
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
