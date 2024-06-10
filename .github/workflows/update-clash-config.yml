@@ -1,38 +1,44 @@
-name: Clash Speedtest
+name: Update Clash Config
 
 on:
   schedule:
-    - cron: '5 20 * * *'
+    # 北京时间每天4点自动执行
+    - cron: '0 20 * * *'
   workflow_dispatch:
+    # 手动执行
 
 jobs:
-  speedtest:
+  update-clash-config:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Go
-      uses: actions/setup-go@v4
-      with:
-        go-version: '1.17'
+    - name: Get current date
+      id: date
+      run: echo "DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV
 
-    - name: Clone clash-speedtest repository
-      run: git clone https://github.com/faceair/clash-speedtest.git
+    - name: Download clash config
+      run: |
+        curl -o clash.yaml "https://freenode.openrunner.net/uploads/${{ env.DATE }}-clash.yaml"
 
-    - name: Install clash-speedtest
-      run: cd clash-speedtest && go install
+    - name: Replace text in clash config
+      run: |
+        sed -i 's/♻️ 自动选择/♻️ 喝粥帮你选/g' clash.yaml
+        sed -i "s/🚀 节点选择/🚀 喝粥的节点 $(date +'%Y-%m-%d')/g" clash.yaml
 
-    - name: Run clash-speedtest
-      run: clash-speedtest -c 'https://raw.githubusercontent.com/Aopex/Hub/main/Clash/%E5%96%9D%E7%B2%A5%E7%9A%84%E6%A2%AF%E5%AD%90' > Clash/Speedtest
+    - name: Move clash config to repository
+      run: |
+        mkdir -p Clash
+        mv clash.yaml Clash/喝粥的梯子
 
-    - name: Commit results
+    - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add Clash/Speedtest
-        git commit -m "Update speedtest results $(date +'%Y-%m-%d')"
-        git push
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        git add Clash/喝粥的梯子
+        git commit -m "Update Clash config for ${{ env.DATE }}"
+        git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
