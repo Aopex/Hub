@@ -27,6 +27,7 @@ jobs:
       run: |
         sed -i 's/♻️ 自动选择/♻️ 喝粥帮你选/g' clash.yaml
         sed -i "s/🚀 节点选择/🚀 喝粥的节点 $(date +'%Y-%m-%d')/g" clash.yaml
+        sed -i "s/tg频道:@ripaojiedian/喝粥的梯子 $(date +'%Y-%m-%d')/g" clash.yaml
 
     - name: Move clash config to repository
       run: |
@@ -40,5 +41,5 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add Clash/喝粥的梯子
-        git commit -m "Update Clash config for ${{ env.DATE }}"
+        git commit -m "Update Clash config for $(date +'%Y-%m-%d')"
         git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
