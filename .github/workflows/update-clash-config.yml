@@ -2,8 +2,8 @@ name: Update Clash Config
 
 on:
   schedule:
-    # 北京时间每天4点自动执行
-    - cron: '0 20 * * *'
+    # 北京时间每天0点自动执行
+    - cron: '0 16 * * *'
   workflow_dispatch:
     # 手动执行
 
@@ -29,17 +29,13 @@ jobs:
         sed -i "s/🚀 节点选择/🚀 喝粥的节点 $(date +'%Y-%m-%d')/g" clash.yaml
         sed -i "s/tg频道:@ripaojiedian/喝粥的梯子 $(date +'%Y-%m-%d')/g" clash.yaml
 
-    - name: Move clash config to repository
-      run: |
-        mkdir -p Clash
-        mv clash.yaml Clash/喝粥的梯子
-
     - name: Commit and push changes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        mv clash.yaml Clash/喝粥的梯子
         git add Clash/喝粥的梯子
         git commit -m "Update Clash config for $(date +'%Y-%m-%d')"
-        git push "https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+        git push
