@@ -28,7 +28,7 @@ jobs:
         sed -i "s/♻️ 自动选择/♻️ 喝粥帮你选/g" clash.yaml
         sed -i "s/🚀 节点选择/🚀 喝粥的节点 $(date +'%Y-%m-%d')/g" clash.yaml
         sed -i "s/tg频道:@ripaojiedian/喝粥的梯子 $(date +'%Y-%m-%d')/g" clash.yaml
-        sed -i "s|http://www.gstatic.com/generate_204|http://connect.rom.miui.com/generate_204|g" clash.yaml
+        sed -i "s|http://www.gstatic.com/generate_204|http://cp.cloudflare.com|g" clash.yaml
 
     - name: Modify YAML file
       env:
