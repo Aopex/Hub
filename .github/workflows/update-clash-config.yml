@@ -40,7 +40,7 @@ jobs:
         
         # Step 2: Add new proxy to proxy-groups
         sed -i '/proxy-groups:/,/name: '"${{ env.TITLE }}"'/{/name: '"${{ env.TITLE }}"'/{/proxies:/{n; n; a\      - '"${{ env.TEXT1 }}"'
-        }}' clash.yaml
+        }}}' clash.yaml
 
     - name: Commit and push changes
       run: |
