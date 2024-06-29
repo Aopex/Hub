@@ -47,7 +47,6 @@ proxy-groups:
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - ♻️ 喝粥帮你选
       - DIRECT
       - 🇭🇰 香港KT
@@ -83,7 +82,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - 🇭🇰 香港KT
       - 🇭🇰 香港
       - 🇭🇰 香港2
@@ -114,7 +112,6 @@ proxy-groups:
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - 🚀 喝粥的节点 2024-06-29
       - ♻️ 喝粥帮你选
       - 🎯 全球直连
@@ -148,7 +145,6 @@ proxy-groups:
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - 🚀 喝粥的节点 2024-06-29
       - 🎯 全球直连
       - 🇭🇰 香港KT
@@ -181,7 +177,6 @@ proxy-groups:
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - 🎯 全球直连
       - 🚀 喝粥的节点 2024-06-29
       - 🇭🇰 香港KT
@@ -214,7 +209,6 @@ proxy-groups:
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - 🚀 喝粥的节点 2024-06-29
       - 🎯 全球直连
       - 🇭🇰 香港KT
@@ -247,7 +241,6 @@ proxy-groups:
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - 🚀 喝粥的节点 2024-06-29
       - 🎯 全球直连
       - ♻️ 喝粥帮你选
@@ -281,7 +274,6 @@ proxy-groups:
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - DIRECT
       - 🚀 喝粥的节点 2024-06-29
       - ♻️ 喝粥帮你选
@@ -289,21 +281,18 @@ proxy-groups:
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - REJECT
       - DIRECT
   - name: 🍃 应用净化
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - REJECT
       - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🥰 6.30更新：优化了自动测速能力
-  - {name: 🥰 6.30更新：优化了自动测速能力, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}
       - 🚀 喝粥的节点 2024-06-29
       - 🎯 全球直连
       - ♻️ 喝粥帮你选
