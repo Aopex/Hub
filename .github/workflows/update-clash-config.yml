@@ -25,13 +25,22 @@ jobs:
 
     - name: Replace text in clash config
       run: |
-        sed -i 's/♻️ 自动选择/♻️ 喝粥帮你选/g' clash.yaml
+        sed -i "s/♻️ 自动选择/♻️ 喝粥帮你选/g" clash.yaml
         sed -i "s/🚀 节点选择/🚀 喝粥的节点 $(date +'%Y-%m-%d')/g" clash.yaml
         sed -i "s/tg频道:@ripaojiedian/喝粥的梯子 $(date +'%Y-%m-%d')/g" clash.yaml
+        sed -i "s|http://www.gstatic.com/generate_204|http://connect.rom.miui.com/generate_204|g" clash.yaml
+
+    - name: Modify YAML file
+      env:
+        TEXT1: 🥰 6.30更新：优化了自动测速能力
+      run: |
+        # Step 1: Add new proxy
+        sed -i '/proxies:/a\  - {name: ${{ env.TEXT1 }}, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}' clash.yaml
+        # Step 2: Add new proxy to proxy-groups
+        sed -i '/proxy-groups:/,/name: 🚀 喝粥的节点 $(date +'%Y-%m-%d')/{/proxies:/a\      - ${{ env.TEXT1 }}
+        }' clash.yaml
 
     - name: Commit and push changes
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
