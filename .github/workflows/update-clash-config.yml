@@ -37,8 +37,8 @@ jobs:
         # Step 1: Add new proxy
         sed -i '/^proxies:/a\  - {name: ${{ env.TEXT1 }}, server: 1, port: 1, client-fingerprint: chrome, type: trojan, password: 1, skip-cert-verify: true}' clash.yaml
         # Step 2: Add new proxy to proxy-groups
-        sed -i '/proxy-groups:/,/name: 🚀 喝粥的节点 $(date +'%Y-%m-%d')/{/proxies:/a\      - ${{ env.TEXT1 }}
-        }' clash.yaml
+        sed -i '/proxy-groups:/,/name: 🚀 喝粥的节点 $(date +'%Y-%m-%d')/{/proxies:/{n; n; a\      - ${{ env.TEXT1 }}
+    }}' clash.yaml
 
     - name: Commit and push changes
       run: |
